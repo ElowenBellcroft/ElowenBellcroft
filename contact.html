@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Elowen Bellcroft</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">Elowen Bellcroft</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="process.html">How I Work</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="contact.html" class="btn-nav active">Email Me</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <div class="page-hero-content animate-fade-up">
+      <h1>Get in Touch</h1>
+      <p>I would love to hear about your book.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="contact-layout">
+        <div class="contact-info animate-slide-left">
+          <h2>Why Email Is the Best Way to Reach Me</h2>
+          <p>I conduct all client communication exclusively through Gmail. This is not a limitation. It is a feature. Email ensures that every detail of our conversation is permanently documented, clearly organized, and easily accessible for future reference. When you email me, you will receive a detailed, personalized reply from me directly. Not a generic auto-response, not a redirect to a booking calendar, and not a reply from an assistant.</p>
+
+          <h3>What to Include in Your Email</h3>
+          <p>Your name (first name or initials are fine). Your genre and sub-genre. Your publishing path (traditional, indie, hybrid, or undecided). Your release date if applicable. Your current marketing efforts. Your current platform size. Your primary marketing goals. Your approximate marketing budget. Any specific questions or concerns.</p>
+          <p>Do not worry if you cannot answer all of these right now. Share whatever you can and I will work with what you provide.</p>
+
+          <div class="contact-direct">
+            <h3>Email Me Directly</h3>
+            <a href="mailto:elowenbellcroft@gmail.com" class="email-link">elowenbellcroft@gmail.com</a>
+            <p class="response-time">I respond to all inquiries within 48 hours, typically much sooner.</p>
+          </div>
+
+          <img src="images/Bellcroft.jpg" alt="Elowen Bellcroft" class="contact-image" />
+        </div>
+
+        <div class="contact-form-wrapper animate-slide-right">
+          <h2>Or Use This Form</h2>
+          <p>Your message will be delivered straight to my Gmail inbox.</p>
+          <form action="https://formspree.io/f/mwlknvnz" method="POST" class="contact-form">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" required placeholder="Your name or initials" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" required placeholder="your@email.com" />
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="genre">Genre / Sub-Genre</label>
+                <input type="text" id="genre" name="genre" placeholder="e.g., Dark Romance" />
+              </div>
+              <div class="form-group">
+                <label for="publishing">Publishing Path</label>
+                <select id="publishing" name="publishing">
+                  <option value="">Select one</option>
+                  <option value="Traditional">Traditional</option>
+                  <option value="Indie">Indie / Self-Published</option>
+                  <option value="Hybrid">Hybrid</option>
+                  <option value="Undecided">Undecided</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="release">Release Date (if applicable)</label>
+                <input type="text" id="release" name="release" placeholder="e.g., March 2026" />
+              </div>
+              <div class="form-group">
+                <label for="budget">Approximate Marketing Budget</label>
+                <input type="text" id="budget" name="budget" placeholder="e.g., $500-$1000" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="newsletter-size">Current Newsletter List Size</label>
+              <input type="text" id="newsletter-size" name="newsletter_size" placeholder="e.g., 500 subscribers" />
+            </div>
+            <div class="form-group">
+              <label>Services of Interest (select all that apply)</label>
+              <div class="checkbox-grid">
+                <label class="checkbox-label"><input type="checkbox" name="services[]" value="Launch Strategy" /> Launch Strategy</label>
+                <label class="checkbox-label"><input type="checkbox" name="services[]" value="ARC Campaigns" /> ARC Campaigns</label>
+                <label class="checkbox-label"><input type="checkbox" name="services[]" value="Advertising" /> Advertising Management</label>
+                <label class="checkbox-label"><input type="checkbox" name="services[]" value="Social Media" /> Social Media Strategy</label>
+                <label class="checkbox-label"><input type="checkbox" name="services[]" value="Newsletter" /> Newsletter Growth</label>
+                <label class="checkbox-label"><input type="checkbox" name="services[]" value="Brand Consulting" /> Brand Consulting</label>
+                <label class="checkbox-label"><input type="checkbox" name="services[]" value="Book Mockup" /> Book Mockup</label>
+                <label class="checkbox-label"><input type="checkbox" name="services[]" value="Book Trailer" /> Book Trailer</label>
+                <label class="checkbox-label"><input type="checkbox" name="services[]" value="Goodreads Listopia" /> Goodreads Listopia</label>
+                <label class="checkbox-label"><input type="checkbox" name="services[]" value="Book Club Litopia" /> Book Club Litopia</label>
+                <label class="checkbox-label"><input type="checkbox" name="services[]" value="Not Sure" /> Not Sure Yet</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="message">Tell Me About Your Project, Goals, and Challenges</label>
+              <textarea id="message" name="message" rows="6" required placeholder="Share as much detail as you can about your book, your current situation, and what you are hoping to achieve."></textarea>
+            </div>
+            <button type="submit" class="btn-primary btn-full">Send to My Inbox</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-content">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <p class="footer-logo">Elowen Bellcroft</p>
+          <p class="footer-tagline">Book Marketing Specialist</p>
+        </div>
+        <div class="footer-nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="process.html">How I Work</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="testimonials.html">Testimonials</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-contact-info">
+          <p>elowenbellcroft@gmail.com</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Elowen Bellcroft. All rights reserved.</p>
+        <p class="footer-note">All client communication conducted exclusively via email for complete transparency and permanent documentation.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
